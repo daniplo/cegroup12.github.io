@@ -1,0 +1,33 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+      .btn {
+        color: red;
+      }
+  }
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+      .btn {
+        color: blue;
+      }
+
+      .section-title {
+        font-size: 20px;
+      }
+
+      .contact-form h3 {
+        font-size: 15px;
+      }
+
+      .contact-form p {
+        font-size: 13px;
+      }
+
+      input, textarea {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        padding: 10px;
+        font-size: 13px;
+        border: 1px solid #dee7ec;
+      }
+  }
