@@ -184,6 +184,29 @@ header {
   box-shadow: none;
 }
 
+/*Contact us CSS*/
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+}
+
+.contact-form {
+  padding: 50px 20px 0 20px;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+/*Footer CSS*/
+
 footer img {
   width: 125px;
 }
@@ -194,6 +217,8 @@ footer p {
 }
 
 footer {
+  width: 100%;
+  background-color: rgba(15, 15, 15, 1);
   padding-top: 30px;
   padding-bottom: 20px;
 }
