@@ -1,0 +1,32 @@
+@media screen and (max-width: 670px){
+  .top-wrapper{
+    text-align: center;
+    padding-top: 140px;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+  }
+  .top-wrapper h1 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+
+  .header-right{
+    display: none;
+  }
+
+  .menu-icon{
+    display: block;
+  }
+
+  .logo{
+    width: 124px;
+  }
+  .btn{
+    width: 100%;
+  }
+  .top-wrapper .borderbox{
+    width: 100%;
+  }
+}
