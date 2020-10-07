@@ -1,3 +1,4 @@
+/*Smartphone*/
 @media screen and (max-width: 670px){
   .top-wrapper{
     text-align: center;
@@ -27,6 +28,23 @@
     width: 100%;
   }
   .top-wrapper .borderbox{
+    width: 100%;
+  }
+}
+/* TABLET */
+@media screen and (max-width: 1000px){
+  .top-wrapper .borderbox{
+    width: 100%;
+  }
+
+  .top-wrapper{
+    text-align: center;
+    padding-top: 140px;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+  }
+  .btn{
     width: 100%;
   }
 }
