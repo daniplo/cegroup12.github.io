@@ -19,6 +19,7 @@
 
   .menu-icon{
     display: block;
+    cursor: pointer;
   }
 
   .logo{
@@ -54,7 +55,16 @@
         footer{
           text-align: center;
         }
-
+  .coffee-catalog{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .testimoni-catalog{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
 }
 /* TABLET */
 @media screen and (max-width: 1000px){
