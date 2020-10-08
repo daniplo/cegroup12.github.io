@@ -30,6 +30,31 @@
   .top-wrapper .borderbox{
     width: 100%;
   }
+  /*Responsive for contact us*/
+  .contact-form{
+    text-align: center;
+  }
+    .section-title {
+          font-size: 20px;
+        }
+
+        .contact-form p {
+          font-size: 13px;
+        }
+
+        input, textarea {
+          width: 100%;
+          margin-top: 5px;
+          margin-bottom: 15px;
+          padding: 10px;
+          font-size: 13px;
+          border: 1px solid #dee7ec;
+        }
+
+        footer{
+          text-align: center;
+        }
+
 }
 /* TABLET */
 @media screen and (max-width: 1000px){
@@ -46,5 +71,5 @@
   }
   .btn{
     width: 100%;
-  } 
+  }
 }

@@ -139,7 +139,7 @@ header {
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
-  color: #5f5d60;
+
 }
 
 .heading h2 {
@@ -193,6 +193,112 @@ header {
   box-shadow: none;
 }
 
+.products-wrapper {
+  //border: 5px solid green;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #faf4e9;
+  text-align: center;
+}
+
+.heading {
+  //border: 5px solid purple;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  //color: #5f5d60;
+}
+
+.heading h1 {
+  font-weight: bold;
+}
+
+.products {
+  border: 5px solid #faf4e9;
+  //padding: 10% 0;
+  float: left;
+  width: 25%;
+}
+
+.coffee-catalog {
+  float: left;
+  width: 100%;
+
+}
+
+.coffee-catalog img {
+  float: left;
+  width: 100%;
+}
+
+.contents {
+  margin-top: 10%;
+  padding-left: 5%;
+  float: left;
+  width: 100%;
+  //background-color: #3d4246;
+  color: : #faf4e9;
+  text-align: left;
+}
+
+.contents p {
+  float: left;
+  width: 100%;
+  //display: inline-block;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.contents h3 {
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.text-contents {
+  position: relative;
+}
+
+.price {
+  color: #e9c46a;
+  border-top: 1px solid #d6f1ff;
+  padding-top: 5px;
+}
+
+
+
+/*Contact us CSS*/
+
+.section-title {
+  border-bottom: 2px solid #104d2d;
+  font-size: 28px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #104d2d;
+  width: 100%;
+}
+
+.contact-form {
+  background-color: #ececec;
+  color: #104d2d;
+}
+
+.contact-form .heading{
+  text-align: center;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+  display: inline-block;
+}
+
+
+/*Footer CSS*/
+
 footer img {
   width: 125px;
 }
@@ -203,6 +309,21 @@ footer p {
 }
 
 footer {
+  height: 150px;
+  width: 100%;
+  background-color: rgba(15, 15, 15, 1);
   padding-top: 30px;
   padding-bottom: 20px;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-right a {
+  font-weight: normal;
+  font-size: 12px;
+  float: left;
+  margin-right: 25px;
+  color: white;
 }
