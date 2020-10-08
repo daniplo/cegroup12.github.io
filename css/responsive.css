@@ -1,3 +1,27 @@
+/* TABLET */
+@media screen and (max-width: 1000px){
+  .top-wrapper .borderbox{
+    width: 100%;
+  }
+
+  .top-wrapper{
+    text-align: center;
+    padding-top: 140px;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+  }
+  .btn{
+    width: 100%;
+  }
+  .coffee-catalog{
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
 /*Smartphone*/
 @media screen and (max-width: 670px){
   .top-wrapper{
@@ -64,22 +88,5 @@
     width: 100%;
     display: block;
     margin-bottom: 20px;
-  }
-}
-/* TABLET */
-@media screen and (max-width: 1000px){
-  .top-wrapper .borderbox{
-    width: 100%;
-  }
-
-  .top-wrapper{
-    text-align: center;
-    padding-top: 140px;
-    background-color: black;
-    height: 100%;
-    width: 100%;
-  }
-  .btn{
-    width: 100%;
   }
 }
